@@ -1,0 +1,27 @@
+.about {
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    padding: 20px;
+}
+.about img{
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about p {
+    margin: 0;
+    padding: 30px;
+}
+
+@media (max-width: 900px) {
+    .text {
+        flex-direction: column;
+    }
+}

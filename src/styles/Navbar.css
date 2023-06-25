@@ -1,0 +1,101 @@
+.hiddenNav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8vh;
+    left: -100%;
+    width: 100%;
+    height: 92vh;
+    background-color: rgb(10, 9, 9);
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: absolute;
+    transition: .5s ease-in;
+    opacity: 95%;
+}
+.nav {
+    height: 8vh;
+    background-color: rgb(10, 9, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+.nav a:last-child{
+    margin-right: 150px;
+}
+.nav a:hover {
+    background-color: aliceblue;
+    color: rgb(10, 9, 9);
+}
+.closeNav {
+    display: flex;
+    flex-direction: column;
+}
+.nav button {
+    display: none;
+}
+.nav img {
+    width: 40px;
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+@media  (max-width: 600px) {
+    .nav a {
+        display: none;
+    }
+    .nav {
+        justify-content: right;
+    }
+    .nav button {
+        display: flex;
+        margin-right: 20px;
+        position: absolute;
+        cursor: pointer;
+        background-color: transparent;
+        color: aliceblue;
+    }
+    .nav svg {
+        font-size: 2.5rem;
+    }
+    #open{
+        left: 0;
+    }
+    #close{
+        left: -100%;
+    }
+    .hiddenNav a {
+        color: aliceblue;
+        cursor: pointer;
+        padding: 10px;
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hiddenNav a:hover {
+        background-color: aliceblue;
+        color: rgb(10, 9, 9);
+        transition: .1s;
+    }
+
+}

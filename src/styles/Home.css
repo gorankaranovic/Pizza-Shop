@@ -1,0 +1,28 @@
+.home {
+    height: 92vh;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+}
+.home h1 {
+    padding-top: 400px;
+    padding-left: 0;
+}
+.home h1,p,button {
+    margin-left: 30%;
+}
+.home button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.home button:hover {
+    color: rgb(57, 56, 56);
+    background-color: #fff;
+}
+.home p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

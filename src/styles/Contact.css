@@ -1,0 +1,57 @@
+.contactContainer {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.contactContainer h1 {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.contactContainer label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contactContainer input {
+    border: none;    
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.contactContainer textarea::placeholder {
+    padding-left: 4px;
+    padding-top: 2px;
+}
+.leftSide {
+    width: 50%;
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+}
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+}
+form {
+    text-align: left;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 400px;
+}
+.contactBtn {
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(225, 66, 66);
+    color: aliceblue;
+    font-size: large;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    width: 100px;
+    margin-left: 40px;
+}
+.contactBtn:hover {
+    background-color: rgb(249, 83, 83);
+}
